@@ -20,12 +20,12 @@
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "0.6.2",
     "include-all": "^3.0.0",
-    "rc": "1.0.1",
+    "rc": "1.1.0",
     "sails": "~1.2.1",
     "sails-disk": "~1.0.0",
     "sails-generate-controller-ts": "^0.0.1",
     "sails-mongo": "^0.12.3",
-    "ts-node": "^3.2.1",
+    "ts-node": "^8.0.0",
     "typed-sails": "^1.0.2",
     "typescript": "^2.4.2",
     "util": "^0.10.3"
@@ -54,6 +54,6 @@
     "@types/serve-static": "^1.7.31",
     "@types/socket.io": "^1.4.29",
     "chai": "^4.1.0",
-    "ts-node": "^3.2.1"
+    "ts-node": "^8.0.0"
   }
 }
