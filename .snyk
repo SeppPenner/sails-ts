@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - grunt-contrib-watch > tiny-lr > body-parser > debug:
+        patched: '2020-03-15T22:41:41.068Z'
+    - sails > skipper > skipper-disk > debug:
+        patched: '2020-03-15T22:41:41.068Z'
+  'npm:lodash:20180130':
+    - sails-mongo > waterline-cursor > lodash:
+        patched: '2020-03-15T22:41:41.068Z'
+    - sails > skipper > skipper-disk > lodash:
+        patched: '2020-03-15T22:41:41.068Z'
+    - sails-disk > machinepack-fs > machine > lodash:
+        patched: '2020-03-15T22:41:41.068Z'
+    - sails-disk > machinepack-fs > machinepack-strings > lodash:
+        patched: '2020-03-15T22:41:41.068Z'
+    - sails-disk > machinepack-fs > machinepack-util > lodash:
+        patched: '2020-03-15T22:41:41.068Z'
+    - sails-disk > machinepack-fs > machinepack-json > machine > lodash:
+        patched: '2020-03-15T22:41:41.068Z'
+    - sails-disk > machinepack-fs > machinepack-strings > machine > lodash:
+        patched: '2020-03-15T22:41:41.068Z'
+    - sails-disk > machinepack-fs > machinepack-util > machine > lodash:
+        patched: '2020-03-15T22:41:41.068Z'
+  'npm:ms:20170412':
+    - grunt-contrib-watch > tiny-lr > body-parser > debug > ms:
+        patched: '2020-03-15T22:41:41.068Z'
+    - sails > skipper > skipper-disk > debug > ms:
+        patched: '2020-03-15T22:41:41.068Z'
